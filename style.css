@@ -30,6 +30,7 @@
     align-items: flex-end;
     font-size: 30pt;
     color: rgb(69, 69, 69);
+    padding-right: 10px;
 }
 
 .keypad-line {
@@ -54,18 +55,15 @@
     cursor: pointer;
     border-radius: 5px;
     font-size: 16pt;
+    color: antiquewhite;
 }
 
-a, a:visited {
-    text-decoration: none;
-    color: antiquewhite;
+.button:hover {
+    scale: 1.05;
+    opacity: 80%;
+    transition: 0.3s;
 }
 
 #equal {
     width: 110px;
-}
-
-@keyframes button {
-    0% {transform: scale(1);}
-    100% {transform: scale(1.2);}
 }
